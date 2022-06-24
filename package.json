@@ -1,5 +1,5 @@
 {
-  "name": "node-jwt",
+  "name": "api-nodejs-mongodb",
   "version": "1.0.0",
   "description": "Exemplo de API em Node.js usando JWT",
   "scripts": {
@@ -7,11 +7,29 @@
   },
   "dependencies": {
     "express": "^4.17.0",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardcore3m/api-node-mongodb.git"
+  },
+  "keywords": [
+    "api",
+    "mongodb",
+    "nodejs",
+    "jwt"
+  ],
+  "author": "hardcore3m",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hardcore3m/api-node-mongodb/issues"
+  },
+  "homepage": "https://github.com/hardcore3m/api-node-mongodb#readme"
 }

@@ -8,7 +8,7 @@ export default {
     privateKey,
     publicKey,
     authOptions: {
-        expiresIn: '30s',
+        expiresIn: '30m',
         algorithm: 'RS256',
     }
 }
